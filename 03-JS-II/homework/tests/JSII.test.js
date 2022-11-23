@@ -78,12 +78,12 @@ describe('colors(color)', function() {
   });
 });
 
-describe('esDiezOCinco(num)', function() {
-  it('should return true if num is 10 or 5', function() {
+describe('esDiezOCinco(numero)', function() {
+  it('should return true if numero is 10 or 5', function() {
     expect(esDiezOCinco(10)).toBe(true);
     expect(esDiezOCinco(5)).toBe(true);
   });
-  it('should return false if num is not 10 or 5', function() {
+  it('should return false if numero is not 10 or 5', function() {
     expect(esDiezOCinco(11)).toBe(false);
     expect(esDiezOCinco(6)).toBe(false);
     expect(esDiezOCinco(0)).toBe(false);
